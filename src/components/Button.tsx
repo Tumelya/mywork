@@ -9,6 +9,6 @@ type ButtonPropsType = {
 export const Button = (props: ButtonPropsType) => {
 
     return (
-        <button className={s.butt} onClick={props.callBack} disabled={props.disabled}>{props.title}</button>
+        <button className={props.disabled === true ? s.disableButt : s.butt} onClick={props.callBack} disabled={props.disabled}>{props.title}</button>
     );
 }

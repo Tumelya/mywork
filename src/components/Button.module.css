@@ -1,4 +1,4 @@
-.butt {
+.butt, .disableButt {
     background-color: #383838;
     border: none;
     border-radius: 10px;
@@ -13,4 +13,9 @@
 
 .butt:hover {
     background-color: #595959;
+}
+
+.disableButt {
+    background-color: #595959;
+    color: darkgrey;
 }

@@ -1,4 +1,5 @@
 .numbers, .lastNum {
+    font-family: "Times New Roman", Times, serif;
     font-size: 40px;
     color: white;
     text-align: center;
@@ -11,4 +12,5 @@
 
 .lastNum {
     color: red;
+    font-weight: bold;
 }
