@@ -1,0 +1,19 @@
+.counterBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid #383838;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.buttonsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid #383838;
+    border-radius: 5px;
+    padding: 10px;
+}
+

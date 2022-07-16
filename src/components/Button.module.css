@@ -1,0 +1,16 @@
+.butt {
+    background-color: #383838;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.butt:hover {
+    background-color: #595959;
+}
