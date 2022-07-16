@@ -8,6 +8,6 @@ type DeskType = {
 export const Desk = (props: DeskType) => {
 
     return (
-            <div className={s.numbers}><p>{props.num}</p></div>
+            <div className={props.num === props.maxValue ? s.lastNum : s.numbers}><p>{props.num}</p></div>
     );
 }
