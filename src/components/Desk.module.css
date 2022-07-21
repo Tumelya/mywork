@@ -1,16 +1,25 @@
-.numbers, .lastNum {
+
+.desk {
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
     color: white;
-    text-align: center;
     border: 2px solid #383838;
     border-radius: 5px;
     background-color: #383838;
-    padding: 15px;
+    padding: 50px;
     margin-bottom: 10px;
+}
+
+.desk p {
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
 }
 
 .lastNum {
     color: red;
     font-weight: bold;
+    font-size: 30px;
 }
