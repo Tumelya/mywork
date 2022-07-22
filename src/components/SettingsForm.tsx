@@ -11,6 +11,10 @@ export const SettingsForm = () => {
 
     let [num, setNum] = useState(minValue);
 
+    /*const setNewNumber = () => {
+        setNum(value);
+    }*/
+
     return (
         <div className={s.counterBlock}>
             <SetDesk startValue={startValue} maxValue={maxValue}/>
