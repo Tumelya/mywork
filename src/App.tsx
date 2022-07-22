@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import {Counter} from "./components/Counter";
+import {CounterForm} from "./components/CounterForm";
+import {SettingsForm} from "./components/SettingsForm";
 
-function App() {
+export const App = () => {
 
     return (
         <div className="App">
-            <Counter/>
-            <Counter/>
+            <SettingsForm/>
+            <CounterForm/>
         </div>
     );
 }
-
-export default App;

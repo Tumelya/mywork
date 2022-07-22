@@ -1,15 +1,17 @@
 import React, {useState} from 'react';
-import s from "./Counter.module.css";
+import s from "./Forms.module.css";
 import {Button} from "./Button";
 import {Desk} from "./Desk";
 
-export const Counter = () => {
+type CounterFormPropsType = {
+
+}
+export const CounterForm: React.FC<CounterFormPropsType> = () => {
 
     const minValue = 0;
     const maxValue = 5;
 
     let [num, setNum] = useState(minValue);
-
 
     const onClickIncrement = () => {
         if (num < maxValue) {

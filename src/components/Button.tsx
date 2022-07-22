@@ -3,7 +3,7 @@ import s from "./Button.module.css";
 
 type ButtonPropsType = {
     title: string
-    callBack: () => void
+    callBack?: () => void
     disabled: boolean
 }
 export const Button = (props: ButtonPropsType) => {

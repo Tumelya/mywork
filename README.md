@@ -1,5 +1,5 @@
-# [Counter on Vercel](https://counter-peach.vercel.app/)
-# [Counter on GH-pages](https://tumelya.github.io/mywork/)
+# [CounterForm on Vercel](https://counter-peach.vercel.app/)
+# [CounterForm on GH-pages](https://tumelya.github.io/mywork/)
 
 # Getting Started with Create React App
 
